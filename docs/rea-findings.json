@@ -1,0 +1,327 @@
+{
+  "tool": "REA CLI 6.7.0",
+  "operation": "analyze_javascript_application",
+  "evidence_id": "ev_87dca891dd8d20a64eac1e6246877d9657a52f5c584dd0b83c46c09d1b6da631",
+  "evidence_path": "/workspace/scratch/rea-site-evidence-network.json",
+  "root_artifact_sha256": "0a9ff53d6298b15dda97f5d42c7c4ec5d344ccee6db48773eddc584a8332ecd1",
+  "inventory_manifest_id": "agm_5b8e8b8c4d5401ba1986be7ee845043a969bd625fb0fc17326fef2337e58d31c",
+  "rea_observations": {
+    "statistics": {
+      "relevant_files": 4,
+      "nested_asar_containers": 0,
+      "text_bytes_read": 450986,
+      "invalid_utf8_files": 0,
+      "parsed_javascript_files": 2,
+      "skipped_javascript_files": 0,
+      "visited_ast_nodes": 24954,
+      "findings": 96,
+      "modules": 6,
+      "parse_failures": 0
+    },
+    "graph_node_count": 94,
+    "node_kinds": {
+      "javascript-module": 74,
+      "source-module": 13,
+      "javascript-asset": 2,
+      "javascript-chunk": 2,
+      "source-map": 2,
+      "artifact": 1
+    },
+    "semantic_node_count": 12807,
+    "semantic_relation_count": 37383,
+    "artifacts": [
+      {
+        "path": "547.4471b40d.chunk.js",
+        "sha256": "c12fc660bbcc921d0ca14c415e370c53b488541a783c6bca8cea9c973adc4999",
+        "bytes": 41327,
+        "rea_node_id": "jag_node_892020d38a3bd201416b7eb62282083793c559f866a7b8506e2b983e999e451d"
+      },
+      {
+        "path": "249.1aeea0f1.chunk.js.map",
+        "sha256": "3b1d87c4fac3aa115294363ae6cd5dcd3029f3004c9359df2dbbf6126c1452b1",
+        "bytes": 168431,
+        "rea_node_id": "jag_node_bb858e231da00a90643e33c1c57ebc9bf6e1249ac4512ab47640da7a6932a1a2"
+      },
+      {
+        "path": "547.4471b40d.chunk.js.map",
+        "sha256": "3f715dba5a2b02184dfae0d168a22c75becee3ca988ca93fcb35089576fe13fc",
+        "bytes": 191811,
+        "rea_node_id": "jag_node_d48b577495b79adc6ed10547a2a62325ad3064159cf195283ced2ebed13e4892"
+      },
+      {
+        "path": "249.1aeea0f1.chunk.js",
+        "sha256": "8d69e5b80442d59a0aa687b827d780f9f3168c3c827f03f91945f7c373fb7345",
+        "bytes": 49417,
+        "rea_node_id": "jag_node_ec1d9ec36b37c24ca85462b491c1996d19e8fde9b8d18a947a0224f94fe617f6"
+      }
+    ],
+    "source_map_modules": [
+      {
+        "path": "components/common/button/index.jsx",
+        "sha256": "02f0561c9a53926f1582e496e0d5e01a69053fd4d6922e51d1f1603be78efa2c",
+        "source_map_sha256": "3b1d87c4fac3aa115294363ae6cd5dcd3029f3004c9359df2dbbf6126c1452b1",
+        "rea_node_id": "jag_node_03fced54eefe1bd3d9eceabb0978e59b2f07de526dab1eed606bf6df703a8100"
+      },
+      {
+        "path": "services/homepageservice.js",
+        "sha256": "581038c87566553d60c9067e44b22b81abd66a3b8d6277406b2f189845b57fc6",
+        "source_map_sha256": "3b1d87c4fac3aa115294363ae6cd5dcd3029f3004c9359df2dbbf6126c1452b1",
+        "rea_node_id": "jag_node_0963f17858776df95eef6991aed9c2b1a0b1832b6d4a5b95ac6a509d84e4345e"
+      },
+      {
+        "path": "components/pricing/index.jsx",
+        "sha256": "f578fe946ff20b9f1b169dc503d040a332be235fce642d64fc6f00569224c46f",
+        "source_map_sha256": "3f715dba5a2b02184dfae0d168a22c75becee3ca988ca93fcb35089576fe13fc",
+        "rea_node_id": "jag_node_35be6361880f66cae10bcac118e7af4ae7a201f4699e823d250e2099b3605f66"
+      },
+      {
+        "path": "components/modals/showallimgmodal.jsx",
+        "sha256": "41b40b2aac43eaeeaac60ff187586ec2aa12ea52088dcc3599eb51eea45963de",
+        "source_map_sha256": "3f715dba5a2b02184dfae0d168a22c75becee3ca988ca93fcb35089576fe13fc",
+        "rea_node_id": "jag_node_65262d096093a9da5c6e4e0746b2eab9909b9023a5d582d7fcad0e052542a6b8"
+      },
+      {
+        "path": "components/common/button/index.jsx",
+        "sha256": "02f0561c9a53926f1582e496e0d5e01a69053fd4d6922e51d1f1603be78efa2c",
+        "source_map_sha256": "3f715dba5a2b02184dfae0d168a22c75becee3ca988ca93fcb35089576fe13fc",
+        "rea_node_id": "jag_node_6aa1ca42b103d243cb6f711fca2f79973b29554a896e92fa64693827bb0ee150"
+      },
+      {
+        "path": "services/complexservice.js",
+        "sha256": "8f161acd21ccb355a1f9b474650924a7ae3522fb9b5768d675a9c8a56086b88d",
+        "source_map_sha256": "3f715dba5a2b02184dfae0d168a22c75becee3ca988ca93fcb35089576fe13fc",
+        "rea_node_id": "jag_node_72cd1d82d4e9f7b5a8962f1e1af192e4572280ea7bebecc115e2edbf53c17473"
+      },
+      {
+        "path": "components/common/bannerslider/index.jsx",
+        "sha256": "8d03fc20525ac1c88a3a3fc379a205610bab2b6755894e5cd78f8f764b44dbae",
+        "source_map_sha256": "3b1d87c4fac3aa115294363ae6cd5dcd3029f3004c9359df2dbbf6126c1452b1",
+        "rea_node_id": "jag_node_7a12f41a96d58275e544f7eb29590c70a8c7c69e48d8d1b70497edfded4a85f5"
+      },
+      {
+        "path": "components/spotlightVenues/SpotlightVenues.js",
+        "sha256": "85fca5878c8174de1945a39f208cdbf0cd04bb33d6da6109673c1825a2408ceb",
+        "source_map_sha256": "3b1d87c4fac3aa115294363ae6cd5dcd3029f3004c9359df2dbbf6126c1452b1",
+        "rea_node_id": "jag_node_83585d3e8b490d142f9dd2cbac168c6078c072dff2cb697173d3c10281b44132"
+      },
+      {
+        "path": "components/common/card/index.jsx",
+        "sha256": "2c12067d26107d5cb93d7aedd885632ceb311865cd9f27793e53f88bdec88698",
+        "source_map_sha256": "3f715dba5a2b02184dfae0d168a22c75becee3ca988ca93fcb35089576fe13fc",
+        "rea_node_id": "jag_node_8659e377ab052a0907657c8f38b76572363b451af210ce15a60cbf99211663c6"
+      },
+      {
+        "path": "pages/complex/index.jsx",
+        "sha256": "7eca40a2f6778febd733d961aefea139f8c8057926091d9e93fb76be1d88c53e",
+        "source_map_sha256": "3f715dba5a2b02184dfae0d168a22c75becee3ca988ca93fcb35089576fe13fc",
+        "rea_node_id": "jag_node_a96685d555ebdf482c64d3e8851b92ffd60d5fd4d7eae4515c607e6c57bd05d0"
+      },
+      {
+        "path": "components/bookingfilters/index.jsx",
+        "sha256": "e53678f2bb12a6e24d35997906f2a225b32f25da300647ded011aee0d628c499",
+        "source_map_sha256": "3b1d87c4fac3aa115294363ae6cd5dcd3029f3004c9359df2dbbf6126c1452b1",
+        "rea_node_id": "jag_node_cd63db6865ab043cd4af2bf45c143c5d1aef1682be06df71b9fa9984ae898123"
+      },
+      {
+        "path": "pages/home/index.jsx",
+        "sha256": "9c52f8fab0973ffed09c4d042fb9951fdc3ba1068d3f15f43168be673797b474",
+        "source_map_sha256": "3b1d87c4fac3aa115294363ae6cd5dcd3029f3004c9359df2dbbf6126c1452b1",
+        "rea_node_id": "jag_node_dc35b603689c5a5b593f894703c20256a415fa0b9f6582ea61904dcab11227fb"
+      },
+      {
+        "path": "components/common/card/index.jsx",
+        "sha256": "2c12067d26107d5cb93d7aedd885632ceb311865cd9f27793e53f88bdec88698",
+        "source_map_sha256": "3b1d87c4fac3aa115294363ae6cd5dcd3029f3004c9359df2dbbf6126c1452b1",
+        "rea_node_id": "jag_node_f4887e9a6c28a45ca8014393caab9d5818ffbf684d2d930d1738addbd10da218"
+      }
+    ]
+  },
+  "coverage": {
+    "application_graph": {
+      "status": "partial",
+      "truncated": false,
+      "omitted_count": null,
+      "limits": []
+    },
+    "semantic_graph": {
+      "status": "unknown",
+      "truncated": false,
+      "omitted_nodes": 0,
+      "omitted_relations": 0,
+      "limits": [],
+      "families": [
+        {
+          "family": "boundary",
+          "status": "partial",
+          "retained_relations": 16,
+          "omitted_relations": 0,
+          "unknown_count": 0
+        },
+        {
+          "family": "call-flow",
+          "status": "partial",
+          "retained_relations": 233,
+          "omitted_relations": 0,
+          "unknown_count": 1253
+        },
+        {
+          "family": "child-process",
+          "status": "partial",
+          "retained_relations": 0,
+          "omitted_relations": 0,
+          "unknown_count": 0
+        },
+        {
+          "family": "closure",
+          "status": "partial",
+          "retained_relations": 1568,
+          "omitted_relations": 0,
+          "unknown_count": 0
+        },
+        {
+          "family": "configuration",
+          "status": "partial",
+          "retained_relations": 0,
+          "omitted_relations": 0,
+          "unknown_count": 0
+        },
+        {
+          "family": "data-flow",
+          "status": "partial",
+          "retained_relations": 33843,
+          "omitted_relations": 0,
+          "unknown_count": 968
+        },
+        {
+          "family": "event",
+          "status": "partial",
+          "retained_relations": 0,
+          "omitted_relations": 0,
+          "unknown_count": 0
+        },
+        {
+          "family": "object-flow",
+          "status": "partial",
+          "retained_relations": 1707,
+          "omitted_relations": 0,
+          "unknown_count": 1994
+        },
+        {
+          "family": "promise-ownership",
+          "status": "partial",
+          "retained_relations": 13,
+          "omitted_relations": 0,
+          "unknown_count": 13
+        },
+        {
+          "family": "request",
+          "status": "partial",
+          "retained_relations": 0,
+          "omitted_relations": 0,
+          "unknown_count": 0
+        },
+        {
+          "family": "resource-lifecycle",
+          "status": "partial",
+          "retained_relations": 0,
+          "omitted_relations": 0,
+          "unknown_count": 0
+        },
+        {
+          "family": "timer",
+          "status": "partial",
+          "retained_relations": 3,
+          "omitted_relations": 0,
+          "unknown_count": 1
+        }
+      ]
+    },
+    "scope": "Two selected homepage/complex JavaScript chunks and their two public source maps, not the entire website or backend."
+  },
+  "source_map_inspection": {
+    "note": "Source module identities are validated in REA Evidence. Endpoint templates and behavior below were read separately from the retained source maps with ordinary JSON/text tools.",
+    "endpoints": [
+      {
+        "source": "services/complexservice.js",
+        "source_map": "547.4471b40d.chunk.js.map",
+        "line": 12,
+        "template": "${baseUrl}/directory/v1/sports_complex/${slug}",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not a REA endpoint finding or runtime request"
+      },
+      {
+        "source": "services/complexservice.js",
+        "source_map": "547.4471b40d.chunk.js.map",
+        "line": 26,
+        "template": "${baseUrl}/directory/v1/sports_complex/near-by/${id}",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not a REA endpoint finding or runtime request"
+      },
+      {
+        "source": "services/homepageservice.js",
+        "source_map": "249.1aeea0f1.chunk.js.map",
+        "line": 13,
+        "template": "${baseUrl}/directory/v1/sports_complex/states?country=${country}",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not a REA endpoint finding or runtime request"
+      },
+      {
+        "source": "services/homepageservice.js",
+        "source_map": "249.1aeea0f1.chunk.js.map",
+        "line": 29,
+        "template": "${baseUrl}/directory/v1/sports_complex/cities/${state}?country=${country}",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not a REA endpoint finding or runtime request"
+      },
+      {
+        "source": "services/homepageservice.js",
+        "source_map": "249.1aeea0f1.chunk.js.map",
+        "line": 44,
+        "template": "${baseUrl}/directory/v1/sports_complex/categories",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not a REA endpoint finding or runtime request"
+      },
+      {
+        "source": "services/homepageservice.js",
+        "source_map": "249.1aeea0f1.chunk.js.map",
+        "line": 90,
+        "template": "${baseUrl}/directory/v1/sports_complex?${query}",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not a REA endpoint finding or runtime request"
+      },
+      {
+        "source": "services/homepageservice.js",
+        "source_map": "249.1aeea0f1.chunk.js.map",
+        "line": 111,
+        "template": "${baseUrl}/directory/v1/sports_complex/search?${query}",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not a REA endpoint finding or runtime request"
+      },
+      {
+        "source": "services/homepageservice.js",
+        "source_map": "249.1aeea0f1.chunk.js.map",
+        "line": 125,
+        "template": "${baseUrl}/directory/v1/sports_complex/get-reviews",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not a REA endpoint finding or runtime request"
+      }
+    ],
+    "routes": [
+      {
+        "source": "components/bookingfilters/index.jsx",
+        "line": 871,
+        "route": "/complex/${venue.slug}",
+        "evidence_type": "ordinary inspection of source-map sourcesContent; not runtime navigation"
+      }
+    ],
+    "homepage_features": [
+      "Venue cards, banner slider, spotlight venues, and booking filters are present as source-map module identities.",
+      "getVenueList source builds optional city, state, country, search, category_id, is_only_featured, when_datetime, when_duration, start and length query fields.",
+      "searchSportsComplex source describes locations and venue suggestions; a venue suggestion navigates to /complex/${venue.slug}."
+    ],
+    "unknowns": [
+      "No source-map content inspection proves requests succeeded or controls behaved at runtime.",
+      "Backend booking/payment implementation and private authentication were not recovered."
+    ]
+  },
+  "limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+  ]
+}

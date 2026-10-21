@@ -1,0 +1,12 @@
+{
+  "name": "booking-central",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Booking Central sports venue directory",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check dist/logic.js",
+    "dev": "node serve.mjs",
+    "build:pages": "node prepare-routes.mjs && node build-pages.mjs"
+  }
+}

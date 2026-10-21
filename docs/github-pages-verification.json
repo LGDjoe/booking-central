@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "base": "/booking-central",
+  "venues": 278,
+  "localAssets": 2470,
+  "checks": [
+    "snapshot integrity",
+    "combined sport and city search",
+    "empty state",
+    "load more",
+    "filter reset",
+    "suggestions",
+    "venue navigation",
+    "gallery open/close",
+    "venue contact booking",
+    "policy routing",
+    "find venue navigation",
+    "direct booking URL",
+    "local asset references",
+    "generated route entry points",
+    "branding"
+  ],
+  "browserVisualQA": "not available"
+}
