@@ -1,8 +1,8 @@
 # Booking Central
 
-A responsive sports venue directory with a red identity (`#DC2626`), local venue photography, search by sport and location, venue details, galleries, and contact options for arranging a booking.
+A responsive sports venue directory with a red identity (`#DC2626`), local venue photography, search by sport and location, venue details, galleries, and a connected booking service.
 
-Built using REA (Reverse Engineering Anything) to study the public layout and interaction patterns of https://playsportstogether.com. The new identity, promotional panels, directory policies, and booking contact flow belong to this rebuild.
+Built using REA (Reverse Engineering Anything) to study the public layout and interaction patterns of https://playsportstogether.com. The new identity, promotional panels, directory policies, and booking flow belong to this rebuild.
 
 ## Run locally
 
@@ -24,9 +24,12 @@ The workflow in `.github/workflows/pages.yml` publishes changes to `main` automa
 
 - 278 venue listings with sport and city filters, suggestions, pagination, and empty states.
 - Venue galleries, amenities, prices, hours, layouts, and map links.
-- Date and time preferences retained for the venue contact dialog.
-- Booking buttons provide telephone or map contact options. Reservations, payments, and live availability are not processed by this static site.
+- Booking buttons open the [booking service](https://booking-central-bookings.legendaryjoe.chatgpt.site/book), retaining the selected venue, date, time and duration.
+- Customers sign in with ChatGPT, submit a request, receive a reference, and view or cancel it in [My bookings](https://booking-central-bookings.legendaryjoe.chatgpt.site/bookings).
+- The [administrator dashboard](https://booking-central-bookings.legendaryjoe.chatgpt.site/admin) lets the owner approve, decline or cancel requests. Approval requires checking availability with the venue and assigning a court.
+- Requests remain pending until approved. Payments are arranged with the venue; automatic emails and live venue availability feeds are not enabled.
 - Venue information is a directory snapshot, not a live inventory feed. Confirm current details with the venue.
+- The booking service runs separately on Sites with a hosted database. GitHub Pages serves this directory.
 - No original analytics, accounts, or tracking code is included.
 
 ## Verification
