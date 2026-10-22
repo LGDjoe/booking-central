@@ -1,0 +1,1 @@
+{"name":"booking-central-bookings","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","db:generate":"drizzle-kit generate --dialect sqlite --schema db/schema.js --out drizzle","test":"node --test test/*.test.mjs"},"devDependencies":{"drizzle-kit":"^0.31.11","drizzle-orm":"^0.45.4","esbuild":"^0.28.2"}}

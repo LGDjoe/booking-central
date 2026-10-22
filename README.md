@@ -20,6 +20,10 @@ The workflow in `.github/workflows/pages.yml` publishes changes to `main` automa
 
 `npm run build:pages` creates the deployable site in `_pages/`, using `/booking-central` as its default base. For a custom domain, run `node build-pages.mjs ''`. The builder supports the home page, venue URLs, policy pages, and a 404 fallback. The `dist/` directory remains suitable for hosting at a domain root.
 
+## Booking service source
+
+The `booking-service/` directory contains the booking server, customer and administrator screens, database migrations and tests. See [its README](booking-service/README.md) for development and hosting details. This repository holds both parts of Booking Central; the directory deploys to GitHub Pages and the booking service runs on Sites.
+
 ## Content and behavior
 
 - 278 venue listings with sport and city filters, suggestions, pagination, and empty states.
